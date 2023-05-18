@@ -97,7 +97,7 @@ const Portfolio=()=>{
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {portfolio.map(each=>(<div key={each} className="shadow-md shadow-gray-600 rounded-lg ">
                         <img src={each.src} alt="" className="rounded-md duration-200 hover:scale-105"/>
-                        <p className="text-center text-gray-500 font-medium pt-2">{each.title}</p>
+                        {/* <p className="text-center text-gray-500 font-medium pt-2">{each.title}</p> */}
                         <div className="flex items-center justify-center">
                         
                             <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"><a href={each.demo}>Demo</a></button>
