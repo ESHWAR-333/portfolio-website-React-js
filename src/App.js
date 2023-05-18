@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Certifications from './components/Certifications';
 
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ function App() {
       <Certifications/>
       <Experience/>
       <Contact/>
-
+      
       <SocialLinks/>
       
     </div>

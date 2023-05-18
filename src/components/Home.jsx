@@ -2,6 +2,7 @@ import React from "react"
 import Eshwar from '../assets/Eshwar.jpg'
 import {MdKeyboardArrowRight} from "react-icons/md"
 import {Link} from 'react-scroll'
+import Footer from './Footer'
 
 const Home=()=>{
 
@@ -20,6 +21,7 @@ return(
         </div>
     </div>
     <div className="mt-5 mb-10 md:mt-0 md:mb-0 rounded-xl w-2/3 md:mx-auto md:w-full "><img className="rounded-xl" src={Eshwar} alt="eshwar"/> </div>
+    <Footer/>
     </div> 
 </div>)
 }
